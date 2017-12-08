@@ -1,2 +1,2 @@
 # PCBuilder
-Projeto de OPI
+Jogo criado para a aula de OPI
