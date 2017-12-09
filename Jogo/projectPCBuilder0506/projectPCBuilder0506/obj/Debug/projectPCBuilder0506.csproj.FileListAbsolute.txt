@@ -444,3 +444,158 @@ C:\Users\Joel\Desktop\PCBuilder\Jogo\Jogo\projectPCBuilder0506\projectPCBuilder0
 C:\Users\Joel\Desktop\PCBuilder\Jogo\Jogo\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
 C:\Users\Joel\Desktop\PCBuilder\Jogo\Jogo\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
 C:\Users\Joel\Desktop\PCBuilder\Jogo\Jogo\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInternet.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInventario.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLogin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmRegistrar.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTDN.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBit.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBitMin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCompetidores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistas.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCriadores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLoja.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMainmenu.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfil.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusica.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe.config
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInternet.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInventario.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLogin.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusica.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmRegistrar.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTDN.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBit.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBitMin.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCompetidores.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistas.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCriadores.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLoja.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMainmenu.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfil.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
+C:\Users\Joel\Desktop\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmAdmin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.1\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmHabilidades.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmAdmin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmHabilidades.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInternet.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInventario.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLogin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusica.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmRegistrar.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTDN.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBit.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBitMin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCompetidores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistas.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCriadores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLoja.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMainmenu.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfil.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\PCBuilder 1.2\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmDpWb.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmAdmin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmHabilidades.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInternet.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInventario.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLogin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusica.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmRegistrar.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTDN.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBit.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBitMin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCompetidores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistas.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCriadores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLoja.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMainmenu.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfil.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.3\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\projectPCBuilder0506.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\Interop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmDpWb.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmAdmin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmHab.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInternet.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmInventario.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLogin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusica.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmRegistrar.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTDN.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBit.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmBitMin.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCompetidores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistas.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmCriadores.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmLoja.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMainmenu.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfil.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache

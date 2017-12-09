@@ -21,7 +21,7 @@ namespace projectPCBuilder0506
             string User = user.ToString();
             usr = User;
 
-            updt();
+            cbxInv();
         }
 
         private void frmInventario_Load(object sender, EventArgs e)
@@ -29,11 +29,37 @@ namespace projectPCBuilder0506
 
         }
 
-        void updt()
+        void cbxInv()
         {
             SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
             con.Open();
-            string str = "select usr_compt,pcn_compt,cpu_compt,pcm_compt,fda_compt,ram_compt,gpu_compt,gab_compt,for_compt from COMPT where usr_compt='" + usr + "'";
+            string str = "select usr_compt,pcn_compt from COMPT where usr_compt='" + usr + "'";
+            SqlCommand cmd = new SqlCommand(str, con);
+            SqlDataAdapter da = new SqlDataAdapter(str, con);
+            DataTable dt = new DataTable();
+            SqlDataReader dr;
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    string nomes = dr.GetString(1);
+                    cbxPCS.Items.Add(nomes);
+                }
+            }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void cbxPCS_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
+            con.Open();
+            string str = "select pcn_compt,cpu_compt,pcm_compt,fda_compt,ram_compt,gpu_compt,gab_compt,for_compt from COMPT where pcn_compt='" + cbxPCS.Text + "'";
             SqlCommand cmd = new SqlCommand(str, con);
             SqlDataAdapter da = new SqlDataAdapter(str, con);
             DataTable dt = new DataTable();
@@ -44,14 +70,13 @@ namespace projectPCBuilder0506
                 dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    lblPCN.Text = dr[1].ToString();              
-                    lblCPU.Text = dr[2].ToString();
-                    lblPCM.Text = dr[3].ToString();
-                    lblFdA.Text = dr[4].ToString();
-                    lblRAM.Text = dr[5].ToString();
-                    lblGPU.Text = dr[6].ToString();
-                    lblGab.Text = dr[7].ToString();
-                    lblForca.Text = dr[8].ToString();
+                    lblCPU.Text = dr[1].ToString();
+                    lblPCM.Text = dr[2].ToString();
+                    lblFdA.Text = dr[3].ToString();
+                    lblRAM.Text = dr[4].ToString();
+                    lblGPU.Text = dr[5].ToString();
+                    lblGab.Text = dr[6].ToString();
+                    lblForca.Text = dr[7].ToString();
                     break;
                 }
             }
@@ -60,11 +85,6 @@ namespace projectPCBuilder0506
                 MessageBox.Show("Você ainda não comprou um computador ainda!!", "Inventário", MessageBoxButtons.OK);
                 Close();
             }
-        }
-
-        private void btnVoltar_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

@@ -53,5 +53,11 @@ namespace projectPCBuilder0506
             e.Graphics.DrawRectangle(new Pen(Color.Black, 3),
                                      this.DisplayRectangle);
         }
+
+        private void btnMusica_Click(object sender, EventArgs e)
+        {
+            frmMusica frm = new frmMusica();
+            frm.Show();
+        }
     }
 }

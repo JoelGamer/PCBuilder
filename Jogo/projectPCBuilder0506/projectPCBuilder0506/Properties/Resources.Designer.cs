@@ -145,6 +145,16 @@ namespace projectPCBuilder0506.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_16_11 {
+            get {
+                object obj = ResourceManager.GetObject("background-16-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bgblack {
             get {
                 object obj = ResourceManager.GetObject("bgblack", resourceCulture);
@@ -585,6 +595,56 @@ namespace projectPCBuilder0506.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap muscstp {
+            get {
+                object obj = ResourceManager.GetObject("muscstp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap musicapse {
+            get {
+                object obj = ResourceManager.GetObject("musicapse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap musicaskip {
+            get {
+                object obj = ResourceManager.GetObject("musicaskip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap musicastart {
+            get {
+                object obj = ResourceManager.GetObject("musicastart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap musicavolt {
+            get {
+                object obj = ResourceManager.GetObject("musicavolt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pcpcpcpcpcpcpcpcpc {
             get {
                 object obj = ResourceManager.GetObject("pcpcpcpcpcpcpcpcpc", resourceCulture);
@@ -768,6 +828,16 @@ namespace projectPCBuilder0506.Properties {
         internal static System.Drawing.Bitmap steam {
             get {
                 object obj = ResourceManager.GetObject("steam", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tutorial {
+            get {
+                object obj = ResourceManager.GetObject("tutorial", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

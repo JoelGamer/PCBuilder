@@ -762,9 +762,9 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Location = new System.Drawing.Point(55, 209);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(145, 13);
+            this.label21.Size = new System.Drawing.Size(139, 13);
             this.label21.TabIndex = 77;
-            this.label21.Text = "Ter mais de R$10000000000";
+            this.label21.Text = "Ter mais de R$1000000000";
             // 
             // lblConDin4
             // 

@@ -49,6 +49,15 @@
             this.pbxPDF2 = new System.Windows.Forms.PictureBox();
             this.pbxPDF1 = new System.Windows.Forms.PictureBox();
             this.pbxPDF3 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnTutorial = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnHabilidades = new System.Windows.Forms.Button();
+            this.lblAdmin = new System.Windows.Forms.Label();
+            this.btnAdmin = new System.Windows.Forms.Button();
+            this.lblDpWb = new System.Windows.Forms.Label();
+            this.btnDpWb = new System.Windows.Forms.Button();
+            this.lblDp = new System.Windows.Forms.Label();
             this.gpbPDF.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF2)).BeginInit();
@@ -314,6 +323,120 @@
             this.pbxPDF3.TabStop = false;
             this.pbxPDF3.Click += new System.EventHandler(this.PDF3_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(112, 281);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 15);
+            this.label4.TabIndex = 93;
+            this.label4.Text = "Tutorial";
+            // 
+            // btnTutorial
+            // 
+            this.btnTutorial.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.tutorial;
+            this.btnTutorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTutorial.FlatAppearance.BorderSize = 0;
+            this.btnTutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTutorial.Location = new System.Drawing.Point(109, 226);
+            this.btnTutorial.Name = "btnTutorial";
+            this.btnTutorial.Size = new System.Drawing.Size(55, 55);
+            this.btnTutorial.TabIndex = 92;
+            this.btnTutorial.UseVisualStyleBackColor = true;
+            this.btnTutorial.Click += new System.EventHandler(this.btnTutorial_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(100, 208);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 15);
+            this.label5.TabIndex = 95;
+            this.label5.Text = "Habilidades";
+            // 
+            // btnHabilidades
+            // 
+            this.btnHabilidades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHabilidades.FlatAppearance.BorderSize = 0;
+            this.btnHabilidades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHabilidades.Location = new System.Drawing.Point(109, 153);
+            this.btnHabilidades.Name = "btnHabilidades";
+            this.btnHabilidades.Size = new System.Drawing.Size(55, 55);
+            this.btnHabilidades.TabIndex = 94;
+            this.btnHabilidades.UseVisualStyleBackColor = true;
+            this.btnHabilidades.Click += new System.EventHandler(this.btnHabilidades_Click);
+            // 
+            // lblAdmin
+            // 
+            this.lblAdmin.AutoSize = true;
+            this.lblAdmin.BackColor = System.Drawing.Color.Transparent;
+            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdmin.ForeColor = System.Drawing.Color.Transparent;
+            this.lblAdmin.Location = new System.Drawing.Point(766, 135);
+            this.lblAdmin.Name = "lblAdmin";
+            this.lblAdmin.Size = new System.Drawing.Size(83, 15);
+            this.lblAdmin.TabIndex = 97;
+            this.lblAdmin.Text = "Administrador";
+            this.lblAdmin.Visible = false;
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAdmin.FlatAppearance.BorderSize = 0;
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Location = new System.Drawing.Point(779, 80);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(55, 55);
+            this.btnAdmin.TabIndex = 96;
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Visible = false;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+            // 
+            // lblDpWb
+            // 
+            this.lblDpWb.AutoSize = true;
+            this.lblDpWb.BackColor = System.Drawing.Color.Transparent;
+            this.lblDpWb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDpWb.ForeColor = System.Drawing.Color.Transparent;
+            this.lblDpWb.Location = new System.Drawing.Point(105, 354);
+            this.lblDpWb.Name = "lblDpWb";
+            this.lblDpWb.Size = new System.Drawing.Size(65, 15);
+            this.lblDpWb.TabIndex = 99;
+            this.lblDpWb.Text = "Deep Web";
+            this.lblDpWb.Visible = false;
+            // 
+            // btnDpWb
+            // 
+            this.btnDpWb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDpWb.FlatAppearance.BorderSize = 0;
+            this.btnDpWb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDpWb.Location = new System.Drawing.Point(109, 299);
+            this.btnDpWb.Name = "btnDpWb";
+            this.btnDpWb.Size = new System.Drawing.Size(55, 55);
+            this.btnDpWb.TabIndex = 98;
+            this.btnDpWb.UseVisualStyleBackColor = true;
+            this.btnDpWb.Visible = false;
+            this.btnDpWb.Click += new System.EventHandler(this.btnDpWb_Click);
+            // 
+            // lblDp
+            // 
+            this.lblDp.AutoSize = true;
+            this.lblDp.BackColor = System.Drawing.Color.Transparent;
+            this.lblDp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDp.ForeColor = System.Drawing.Color.Transparent;
+            this.lblDp.Location = new System.Drawing.Point(844, 556);
+            this.lblDp.Name = "lblDp";
+            this.lblDp.Size = new System.Drawing.Size(14, 15);
+            this.lblDp.TabIndex = 100;
+            this.lblDp.Text = "0";
+            this.lblDp.Visible = false;
+            // 
             // frmMainmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,6 +444,15 @@
             this.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.bgcolor3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 576);
+            this.Controls.Add(this.lblDp);
+            this.Controls.Add(this.lblDpWb);
+            this.Controls.Add(this.btnDpWb);
+            this.Controls.Add(this.lblAdmin);
+            this.Controls.Add(this.btnAdmin);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnHabilidades);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnTutorial);
             this.Controls.Add(this.gpbPDF);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnCriadores);
@@ -375,5 +507,14 @@
         private System.Windows.Forms.PictureBox pbxPDF3;
         private System.Windows.Forms.PictureBox pbxPDF2;
         private System.Windows.Forms.PictureBox pbxPDF1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnTutorial;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnHabilidades;
+        private System.Windows.Forms.Label lblAdmin;
+        private System.Windows.Forms.Button btnAdmin;
+        private System.Windows.Forms.Label lblDpWb;
+        private System.Windows.Forms.Button btnDpWb;
+        private System.Windows.Forms.Label lblDp;
     }
 }

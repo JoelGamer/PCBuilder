@@ -36,6 +36,8 @@
             this.btnCampanha = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.btnBitcoin = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnMusica = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label6
@@ -56,7 +58,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(11, 291);
+            this.label9.Location = new System.Drawing.Point(323, 218);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(60, 15);
             this.label9.TabIndex = 85;
@@ -80,7 +82,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(198, 9);
+            this.label1.Location = new System.Drawing.Point(137, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 36);
             this.label1.TabIndex = 89;
@@ -106,7 +108,7 @@
             this.btnInventario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInventario.FlatAppearance.BorderSize = 0;
             this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Location = new System.Drawing.Point(12, 236);
+            this.btnInventario.Location = new System.Drawing.Point(324, 163);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(55, 55);
             this.btnInventario.TabIndex = 84;
@@ -126,13 +128,40 @@
             this.btnBitcoin.UseVisualStyleBackColor = false;
             this.btnBitcoin.Click += new System.EventHandler(this.btnBitcoin_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(327, 145);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 15);
+            this.label2.TabIndex = 91;
+            this.label2.Text = "Música";
+            // 
+            // btnMusica
+            // 
+            this.btnMusica.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.spotifyyyy;
+            this.btnMusica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMusica.FlatAppearance.BorderSize = 0;
+            this.btnMusica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMusica.Location = new System.Drawing.Point(324, 90);
+            this.btnMusica.Name = "btnMusica";
+            this.btnMusica.Size = new System.Drawing.Size(55, 55);
+            this.btnMusica.TabIndex = 90;
+            this.btnMusica.UseVisualStyleBackColor = true;
+            this.btnMusica.Click += new System.EventHandler(this.btnMusica_Click);
+            // 
             // frmInternet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.bginternet;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(503, 370);
+            this.ClientSize = new System.Drawing.Size(391, 272);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnMusica);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnCampanha);
@@ -160,5 +189,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCampanha;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnMusica;
     }
 }

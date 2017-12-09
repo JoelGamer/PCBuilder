@@ -169,6 +169,8 @@ namespace projectPCBuilder0506
 
         void updtbit()
         {
+            int MUpg = Convert.ToInt32(lblUpgrade.Text);
+
             try
             {
                 string connectionString =
@@ -184,6 +186,7 @@ namespace projectPCBuilder0506
                     {
                         cmd.Parameters.AddWithValue("@Din", FDinheiro);
                         cmd.Parameters.AddWithValue("@Bit", FBitm);
+                        cmd.Parameters.AddWithValue("@Bit", MUpg);
 
                         int rows = cmd.ExecuteNonQuery();
                     }
@@ -200,6 +203,7 @@ namespace projectPCBuilder0506
         {
             long MDinheiro = Convert.ToInt64(lblDinheiro.Text);
             int MBitm = Convert.ToInt32(lblBitm.Text);
+            int MUpg = Convert.ToInt32(lblUpgrade.Text);
 
             try
             {
@@ -212,10 +216,11 @@ namespace projectPCBuilder0506
                 {
                     conn.Open();
                     using (SqlCommand cmd =
-                        new SqlCommand("UPDATE USUARIO SET din_usuario=@Din,bitm_usuario=@Bit WHERE usr_usuario='" + usr + "'", conn))
+                        new SqlCommand("UPDATE USUARIO SET din_usuario=@Din,bitm_usuario=@Bit,upg_usuario=@Upg WHERE usr_usuario='" + usr + "'", conn))
                     {
                         cmd.Parameters.AddWithValue("@Din", MDinheiro);
                         cmd.Parameters.AddWithValue("@Bit", MBitm);
+                        cmd.Parameters.AddWithValue("@Upg", MUpg);
 
                         int rows = cmd.ExecuteNonQuery();
                     }

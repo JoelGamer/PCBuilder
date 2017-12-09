@@ -73,19 +73,14 @@ namespace projectPCBuilder0506
         }
 
         void registrar()
-        {           
+        {
             SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
-            string str = "insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,bitm_usuario,vit_usuario,upg_usuario) values('"+txtUsr.Text+"','"+txtSenha.Text+"','"+ cbxSerie.Text+ "','"+ cbxSexo.Text+ "','"+0+"','"+0+"','"+0+"','"+1+"')";
+            string str = "insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,bitm_usuario,vit_usuario,upg_usuario) values('" + txtUsr.Text + "','" + txtSenha.Text + "','" + cbxSerie.Text + "','" + cbxSexo.Text + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 1 + "')";
             SqlCommand cmd = new SqlCommand(str, con);
             con.Open();
             cmd.ExecuteNonQuery();
-            
-            MessageBox.Show("Parabéns você acabou de ser registrado", "Registro", MessageBoxButtons.OK);
-        }
 
-        private void cbxSerie_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //Affs
+            MessageBox.Show("Parabéns você acabou de ser registrado", "Registro", MessageBoxButtons.OK);
         }
 
         private void frmRegistrar_Load(object sender, EventArgs e)
@@ -102,5 +97,5 @@ namespace projectPCBuilder0506
         {
 
         }
-    }//Hi
-}//Hey
+    }
+}

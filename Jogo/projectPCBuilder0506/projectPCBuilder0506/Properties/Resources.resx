@@ -127,11 +127,11 @@
   <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elemento-azul-e-roxo-do-projeto-do-respingo-da-aquarela-45499675" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elemento-azul-e-roxo-do-projeto-do-respingo-da-aquarela-45499675.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spotify1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spotify.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,17 +145,14 @@
   <data name="steam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\steam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="picole" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="msedge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msedge1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pvp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pvp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="001-a-trofeu-platina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\001-a-trofeu-platina1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prata" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="conv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\conv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,17 +175,23 @@
   <data name="spotif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spotif.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="musicaskip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicaskip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="li1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\li1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fluxo-de-caixa1-e1491591577705" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fluxo-de-caixa1-e1491591577705.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tutorial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicastart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicastart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PVP_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PVP_Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sair" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sair.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iniciar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iniciar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -198,6 +201,12 @@
   </data>
   <data name="bgcolor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgcolor3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spotify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spotify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,6 +238,9 @@
   <data name="bitup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bitup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="musicavolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicavolt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bgblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgblack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -240,6 +252,12 @@
   </data>
   <data name="minerapp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minerapp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muscstp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muscstp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="20151109193500ctpeEToy4k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20151109193500ctpeEToy4k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,9 +286,6 @@
   <data name="black_light_dark_figures_73356_1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black_light_dark_figures_73356_1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bitconfirmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bitconfirmar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lixeira" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lixeira.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -289,14 +304,14 @@
   <data name="psn-bronze-trophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\psn-bronze-trophy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bitconv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bitconv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="musicapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicapse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="confirmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\confirmar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hackers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hackers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sair.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="colorful" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\colorful.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,17 +325,23 @@
   <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perfil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Hackers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hackers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="site" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\site.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="120-coroa-rei-e-princesa-toppers-tag-scrapbook-apliques-D_NQ_NP_934911-MLB20662394530_042016-F1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\120-coroa-rei-e-princesa-toppers-tag-scrapbook-apliques-D_NQ_NP_934911-MLB20662394530_042016-F1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background-16-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background-16-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="asdsasdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asdsasdd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background-16-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background-16-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bitconv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitconv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menuw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menuw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,16 +349,16 @@
   <data name="fggfgf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fggfgf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="elemento-azul-e-roxo-do-projeto-do-respingo-da-aquarela-45499675" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elemento-azul-e-roxo-do-projeto-do-respingo-da-aquarela-45499675.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgspot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgspot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spotify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spotify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bitconfirmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bitconfirmar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="msedge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\msedge1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background-16-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background-16-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

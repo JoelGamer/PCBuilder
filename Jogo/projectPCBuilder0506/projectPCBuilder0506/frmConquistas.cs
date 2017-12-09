@@ -93,7 +93,7 @@ namespace projectPCBuilder0506
                     lblConDin3.ForeColor = Color.Green;
                 }
             }
-            if (Cdinheiro >= 10000000000)
+            if (Cdinheiro >= 1000000000)
             {
                 if(lblConDin4.ForeColor == Color.Red)
                 {

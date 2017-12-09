@@ -21,8 +21,10 @@ namespace projectPCBuilder0506
             InitializeComponent();
             string User = user.ToString();
             usr = User;
+            Admin();
+            DpWb();
         }
-        
+
         private void btnPerfil_Click(object sender, EventArgs e)
         {
             frmPerfil frm = new frmPerfil(usr);
@@ -52,7 +54,7 @@ namespace projectPCBuilder0506
         }
 
         private void btnInternet_Click(object sender, EventArgs e)
-        { 
+        {
             frmInternet frm = new frmInternet(usr);
             frm.Show();
         }
@@ -64,7 +66,7 @@ namespace projectPCBuilder0506
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            if(clk == 1)
+            if (clk == 1)
             {
                 btnSair.Visible = false;
                 btnPDF.Visible = false;
@@ -80,7 +82,7 @@ namespace projectPCBuilder0506
                 btnCriadores.Visible = true;
                 Application.DoEvents();
                 clk = 1;
-            }           
+            }
         }
 
         private void btnCriadores_Click(object sender, EventArgs e)
@@ -91,14 +93,14 @@ namespace projectPCBuilder0506
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if(gpbPDF.Visible == true)
+            if (gpbPDF.Visible == true)
             {
                 gpbPDF.Visible = false;
             }
             else
             {
                 gpbPDF.Visible = true;
-            }          
+            }
         }
 
         private void PDF1_click(object sender, EventArgs e)
@@ -134,6 +136,7 @@ namespace projectPCBuilder0506
             btnPDF.ForeColor = Color.Black;
             btnCriadores.BackColor = Color.White;
             btnCriadores.ForeColor = Color.Black;
+            lblDp.ForeColor = Color.White;
             btnMenu.BackgroundImage = Properties.Resources.menuw;
         }
 
@@ -145,7 +148,72 @@ namespace projectPCBuilder0506
             btnPDF.ForeColor = Color.White;
             btnCriadores.BackColor = Color.Black;
             btnCriadores.ForeColor = Color.White;
+            lblDp.ForeColor = Color.Black;
             btnMenu.BackgroundImage = Properties.Resources.menu;
+        }
+
+        private void btnTutorial_Click(object sender, EventArgs e)
+        {
+            frmTutorial frm = new frmTutorial();
+            frm.Show();
+        }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            frmAdmin frm = new frmAdmin();
+            frm.Show();
+        }
+
+        private void btnHabilidades_Click(object sender, EventArgs e)
+        {
+            frmHab frm = new frmHab(usr);
+            frm.Show();
+        }
+
+        void Admin()
+        {
+            if (usr == "Admin")
+            {
+                btnAdmin.Visible = true;
+                lblAdmin.Visible = true;
+                Application.DoEvents();
+            }
+            else { }
+        }
+
+        void DpWb()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
+            con.Open();
+            string str = "select usr_habilidade,dpwb_habilidade from HABILIDADES where usr_habilidade='" + usr + "'";
+            SqlCommand cmd = new SqlCommand(str, con);
+            SqlDataAdapter da = new SqlDataAdapter(str, con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                SqlDataReader dr;
+                dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    lblDp.Text = dr[1].ToString();
+                    int DpWb = Convert.ToInt16(lblDp.Text);
+
+                    if (DpWb == 1)
+                    {
+                        btnDpWb.Visible = true;
+                        lblDpWb.Visible = true;
+                        Application.DoEvents();
+                    }
+                    else { }
+                }
+            }
+            else{ }
+        }
+        private void btnDpWb_Click(object sender, EventArgs e)
+        {
+            frmDpWb frm = new frmDpWb(usr);
+            frm.Show();
         }
     }
 }

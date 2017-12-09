@@ -62,9 +62,16 @@ namespace projectPCBuilder0506
 
                 if (Vres == Res)
                 {
-                    FBit = Upg;
-                    lblBitcoin.Text = FBit.ToString();
-
+                    if(FBit >= 1)
+                    {
+                        FBit = Upg + FBit;
+                        lblBitcoin.Text = FBit.ToString();
+                    }
+                    else
+                    {
+                        FBit = Upg;
+                        lblBitcoin.Text = FBit.ToString();
+                    }
                     MessageBox.Show("Você conseguiu minerar um bitcoin!", "Minerador", MessageBoxButtons.OK);                    
                 }
                 else

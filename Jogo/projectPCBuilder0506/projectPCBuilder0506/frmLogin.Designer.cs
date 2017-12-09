@@ -98,7 +98,7 @@
             this.btnConfirmar.BackColor = System.Drawing.SystemColors.Control;
             this.btnConfirmar.FlatAppearance.BorderSize = 0;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmar.Location = new System.Drawing.Point(44, 170);
+            this.btnConfirmar.Location = new System.Drawing.Point(44, 163);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(161, 60);
             this.btnConfirmar.TabIndex = 5;
@@ -113,7 +113,7 @@
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Location = new System.Drawing.Point(0, 401);
+            this.btnSair.Location = new System.Drawing.Point(0, 394);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(60, 60);
             this.btnSair.TabIndex = 6;
@@ -126,7 +126,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 258);
+            this.label4.Location = new System.Drawing.Point(12, 251);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(333, 25);
             this.label4.TabIndex = 8;
@@ -137,7 +137,7 @@
             this.btnRegistrar.BackColor = System.Drawing.SystemColors.Control;
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Location = new System.Drawing.Point(17, 302);
+            this.btnRegistrar.Location = new System.Drawing.Point(17, 295);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(120, 60);
             this.btnRegistrar.TabIndex = 9;
@@ -150,7 +150,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(170, 302);
+            this.button1.Location = new System.Drawing.Point(170, 295);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 60);
             this.button1.TabIndex = 10;
@@ -165,7 +165,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.bgcolor3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(398, 461);
+            this.ClientSize = new System.Drawing.Size(398, 454);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label4);
@@ -180,6 +180,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);

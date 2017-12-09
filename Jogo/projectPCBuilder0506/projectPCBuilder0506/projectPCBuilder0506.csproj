@@ -66,6 +66,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCompetidoresAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompetidoresAdv.Designer.cs">
+      <DependentUpon>frmCompetidoresAdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDpWb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDpWb.Designer.cs">
+      <DependentUpon>frmDpWb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFaccoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFaccoes.Designer.cs">
+      <DependentUpon>frmFaccoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHab.Designer.cs">
+      <DependentUpon>frmHab.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInternet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,11 +108,35 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMulti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMulti.Designer.cs">
+      <DependentUpon>frmMulti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMusica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusica.Designer.cs">
+      <DependentUpon>frmMusica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPCH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPCH.Designer.cs">
+      <DependentUpon>frmPCH.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRegistrar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmRegistrar.Designer.cs">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSVH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSVH.Designer.cs">
+      <DependentUpon>frmSVH.cs</DependentUpon>
     </Compile>
     <Compile Include="frmTDN.cs">
       <SubType>Form</SubType>
@@ -144,8 +198,29 @@
     <Compile Include="frmPerfil.Designer.cs">
       <DependentUpon>frmPerfil.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorial.Designer.cs">
+      <DependentUpon>frmTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorial2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorial2.Designer.cs">
+      <DependentUpon>frmTutorial2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDpWb.resx">
+      <DependentUpon>frmDpWb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHab.resx">
+      <DependentUpon>frmHab.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInternet.resx">
       <DependentUpon>frmInternet.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusica.resx">
+      <DependentUpon>frmMusica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrar.resx">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
@@ -184,6 +262,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPerfil.resx">
       <DependentUpon>frmPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorial.resx">
+      <DependentUpon>frmTutorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorial2.resx">
+      <DependentUpon>frmTutorial2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -419,6 +503,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\msedge1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicastart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muscstp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicapse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicavolt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicaskip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-16-11.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
