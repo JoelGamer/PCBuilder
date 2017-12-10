@@ -120,6 +120,7 @@ namespace projectPCBuilder0506
                     player.controls.play();
                     player.URL = extencao;
                     btnPause.Visible = true;
+                    Application.DoEvents();
                     break;
                 }
             }

@@ -308,5 +308,10 @@ namespace projectPCBuilder0506
             }
             else { }
         }
+
+        private void frmHab_Load(object sender, EventArgs e)
+        {
+
+        }
     }//Fim
 }//Fim

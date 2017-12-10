@@ -480,6 +480,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmHab";
             this.Text = "Habilidades";
+            this.Load += new System.EventHandler(this.frmHab_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

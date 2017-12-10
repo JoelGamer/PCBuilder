@@ -21,27 +21,27 @@ usr_usuario varchar(80) not null,
 sen_usuario varchar(80) not null,
 ano_usuario varchar(80) not null,
 sexo_usuario varchar(80) not null,
-din_usuario int,
-bitm_usuario int,
-vit_usuario int,
+din_usuario int not null,
+bitm_usuario int not null,
+vit_usuario int not null,
 upg_usuario int not null,
-pchack_usuario int,
-sevhack_usuario int,
-vitapr_usuario int,
-vitmulti_usuario int,
+pchack_usuario int not null,
+sevhack_usuario int not null,
+vitapr_usuario int not null,
+vitmulti_usuario int not null,
 Primary key(cod_usuario),
 );
 
 CREATE TABLE HABILIDADES(
 cod_habilidade int not null IDENTITY(1,1),
 usr_habilidade varchar(80) not null,
-pcs_habilidade int,
-dpwb_habilidade int,
-hack_habilidade int,
-serv_habilidade int,
-comp_habilidade int,
-multi_habilidade int,
-fact_habilidade int,
+pcs_habilidade int not null,
+dpwb_habilidade int not null,
+hack_habilidade int not null,
+serv_habilidade int not null,
+comp_habilidade int not null,
+multi_habilidade int not null,
+fact_habilidade int not null,
 Primary key(cod_habilidade),
 );
 
@@ -258,8 +258,14 @@ select * from MUSICAS;
 
 select * from USUARIO; 
 select * from HABILIDADES;
+select * from COMPT;
 
 insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,vit_usuario,bitm_usuario,upg_usuario,pchack_usuario,sevhack_usuario,vitapr_usuario,vitmulti_usuario) values('Admin','123','Admin','Admin',100000000,4,1000,100,0,0,0,0);
 insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,vit_usuario,bitm_usuario,upg_usuario,pchack_usuario,sevhack_usuario,vitapr_usuario,vitmulti_usuario) values('Joel','123','Admin','Admin',100000000,4,1000,100,0,0,0,0);
 insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,vit_usuario,bitm_usuario,upg_usuario,pchack_usuario,sevhack_usuario,vitapr_usuario,vitmulti_usuario) values('Jajadogão','123','Admin','Admin',100000000,4,1000,100,0,0,0,0);
 insert into USUARIO(usr_usuario,sen_usuario,ano_usuario,sexo_usuario,din_usuario,vit_usuario,bitm_usuario,upg_usuario,pchack_usuario,sevhack_usuario,vitapr_usuario,vitmulti_usuario) values('lucaspvpbr2','123','Admin','Admin',100000000,4,1000,100,0,0,0,0);
+
+insert into HABILIDADES(usr_habilidade,pcs_habilidade,dpwb_habilidade,hack_habilidade,serv_habilidade,comp_habilidade,multi_habilidade,fact_habilidade) values('Admin',0,0,0,0,0,0,0);
+insert into HABILIDADES(usr_habilidade,pcs_habilidade,dpwb_habilidade,hack_habilidade,serv_habilidade,comp_habilidade,multi_habilidade,fact_habilidade) values('Joel',0,0,0,0,0,0,0);
+insert into HABILIDADES(usr_habilidade,pcs_habilidade,dpwb_habilidade,hack_habilidade,serv_habilidade,comp_habilidade,multi_habilidade,fact_habilidade) values('Jajadogão',0,0,0,0,0,0,0);
+insert into HABILIDADES(usr_habilidade,pcs_habilidade,dpwb_habilidade,hack_habilidade,serv_habilidade,comp_habilidade,multi_habilidade,fact_habilidade) values('lucaspvpbr2',0,0,0,0,0,0,0);

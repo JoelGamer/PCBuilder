@@ -145,6 +145,7 @@
             // 
             // cbxSexo
             // 
+            this.cbxSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSexo.FormattingEnabled = true;
             this.cbxSexo.Location = new System.Drawing.Point(275, 237);
             this.cbxSexo.Name = "cbxSexo";
@@ -175,6 +176,7 @@
             // 
             // cbxSerie
             // 
+            this.cbxSerie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSerie.FormattingEnabled = true;
             this.cbxSerie.Location = new System.Drawing.Point(275, 198);
             this.cbxSerie.Name = "cbxSerie";

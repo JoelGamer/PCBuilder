@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLoja));
-            this.lblDinheiro = new System.Windows.Forms.Label();
+            this.lblDin = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.lblForca = new System.Windows.Forms.Label();
+            this.lblFTotal = new System.Windows.Forms.Label();
             this.txtPCNome = new System.Windows.Forms.TextBox();
             this.lblPCNome = new System.Windows.Forms.Label();
-            this.btnNNome = new System.Windows.Forms.Button();
+            this.btnComprar = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@
             this.label77 = new System.Windows.Forms.Label();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.label84 = new System.Windows.Forms.Label();
-            this.lblGDinheiro = new System.Windows.Forms.Label();
+            this.lblVTotal = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.cbxFdX = new System.Windows.Forms.ComboBox();
             this.cbxGax = new System.Windows.Forms.ComboBox();
@@ -58,17 +58,17 @@
             this.cbxCPX = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // lblDinheiro
+            // lblDin
             // 
-            this.lblDinheiro.AutoSize = true;
-            this.lblDinheiro.BackColor = System.Drawing.Color.Transparent;
-            this.lblDinheiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDinheiro.ForeColor = System.Drawing.Color.White;
-            this.lblDinheiro.Location = new System.Drawing.Point(149, 76);
-            this.lblDinheiro.Name = "lblDinheiro";
-            this.lblDinheiro.Size = new System.Drawing.Size(24, 26);
-            this.lblDinheiro.TabIndex = 3;
-            this.lblDinheiro.Text = "0";
+            this.lblDin.AutoSize = true;
+            this.lblDin.BackColor = System.Drawing.Color.Transparent;
+            this.lblDin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDin.ForeColor = System.Drawing.Color.White;
+            this.lblDin.Location = new System.Drawing.Point(144, 76);
+            this.lblDin.Name = "lblDin";
+            this.lblDin.Size = new System.Drawing.Size(24, 26);
+            this.lblDin.TabIndex = 3;
+            this.lblDin.Text = "0";
             // 
             // label1
             // 
@@ -118,20 +118,19 @@
             this.btnVoltar.TabIndex = 12;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.button2_Click);
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // lblForca
+            // lblFTotal
             // 
-            this.lblForca.AutoSize = true;
-            this.lblForca.BackColor = System.Drawing.Color.Transparent;
-            this.lblForca.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblForca.ForeColor = System.Drawing.Color.White;
-            this.lblForca.Location = new System.Drawing.Point(285, 307);
-            this.lblForca.Name = "lblForca";
-            this.lblForca.Size = new System.Drawing.Size(24, 26);
-            this.lblForca.TabIndex = 18;
-            this.lblForca.Text = "0";
-            this.lblForca.Click += new System.EventHandler(this.lblForca_Click);
+            this.lblFTotal.AutoSize = true;
+            this.lblFTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblFTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFTotal.ForeColor = System.Drawing.Color.White;
+            this.lblFTotal.Location = new System.Drawing.Point(285, 307);
+            this.lblFTotal.Name = "lblFTotal";
+            this.lblFTotal.Size = new System.Drawing.Size(24, 26);
+            this.lblFTotal.TabIndex = 18;
+            this.lblFTotal.Text = "0";
             // 
             // txtPCNome
             // 
@@ -152,18 +151,18 @@
             this.lblPCNome.Size = new System.Drawing.Size(0, 26);
             this.lblPCNome.TabIndex = 20;
             // 
-            // btnNNome
+            // btnComprar
             // 
-            this.btnNNome.FlatAppearance.BorderSize = 0;
-            this.btnNNome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNNome.ForeColor = System.Drawing.Color.Black;
-            this.btnNNome.Location = new System.Drawing.Point(12, 380);
-            this.btnNNome.Name = "btnNNome";
-            this.btnNNome.Size = new System.Drawing.Size(121, 74);
-            this.btnNNome.TabIndex = 21;
-            this.btnNNome.Text = "Comprar o PC";
-            this.btnNNome.UseVisualStyleBackColor = true;
-            this.btnNNome.Click += new System.EventHandler(this.btnNNome_Click);
+            this.btnComprar.FlatAppearance.BorderSize = 0;
+            this.btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComprar.ForeColor = System.Drawing.Color.Black;
+            this.btnComprar.Location = new System.Drawing.Point(12, 380);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(121, 74);
+            this.btnComprar.TabIndex = 21;
+            this.btnComprar.Text = "Comprar o PC";
+            this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
             // label25
             // 
@@ -286,17 +285,17 @@
             this.label84.TabIndex = 37;
             this.label84.Text = "Gasto total:";
             // 
-            // lblGDinheiro
+            // lblVTotal
             // 
-            this.lblGDinheiro.AutoSize = true;
-            this.lblGDinheiro.BackColor = System.Drawing.Color.Transparent;
-            this.lblGDinheiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGDinheiro.ForeColor = System.Drawing.Color.White;
-            this.lblGDinheiro.Location = new System.Drawing.Point(319, 333);
-            this.lblGDinheiro.Name = "lblGDinheiro";
-            this.lblGDinheiro.Size = new System.Drawing.Size(24, 26);
-            this.lblGDinheiro.TabIndex = 36;
-            this.lblGDinheiro.Text = "0";
+            this.lblVTotal.AutoSize = true;
+            this.lblVTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblVTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVTotal.ForeColor = System.Drawing.Color.White;
+            this.lblVTotal.Location = new System.Drawing.Point(319, 333);
+            this.lblVTotal.Name = "lblVTotal";
+            this.lblVTotal.Size = new System.Drawing.Size(24, 26);
+            this.lblVTotal.TabIndex = 36;
+            this.lblVTotal.Text = "0";
             // 
             // label85
             // 
@@ -312,57 +311,70 @@
             // 
             // cbxFdX
             // 
+            this.cbxFdX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxFdX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxFdX.FormattingEnabled = true;
             this.cbxFdX.Location = new System.Drawing.Point(290, 254);
             this.cbxFdX.Name = "cbxFdX";
             this.cbxFdX.Size = new System.Drawing.Size(288, 28);
             this.cbxFdX.TabIndex = 39;
+            this.cbxFdX.SelectedIndexChanged += new System.EventHandler(this.cbxFdX_SelectedIndexChanged);
             // 
             // cbxGax
             // 
+            this.cbxGax.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxGax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxGax.FormattingEnabled = true;
             this.cbxGax.Location = new System.Drawing.Point(290, 280);
             this.cbxGax.Name = "cbxGax";
             this.cbxGax.Size = new System.Drawing.Size(288, 28);
             this.cbxGax.TabIndex = 40;
+            this.cbxGax.SelectedIndexChanged += new System.EventHandler(this.cbxGax_SelectedIndexChanged);
             // 
             // cbxGPX
             // 
+            this.cbxGPX.BackColor = System.Drawing.SystemColors.Window;
+            this.cbxGPX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxGPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxGPX.FormattingEnabled = true;
             this.cbxGPX.Location = new System.Drawing.Point(290, 228);
             this.cbxGPX.Name = "cbxGPX";
             this.cbxGPX.Size = new System.Drawing.Size(288, 28);
             this.cbxGPX.TabIndex = 41;
+            this.cbxGPX.SelectedIndexChanged += new System.EventHandler(this.cbxGPX_SelectedIndexChanged);
             // 
             // cbxRAX
             // 
+            this.cbxRAX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxRAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxRAX.FormattingEnabled = true;
             this.cbxRAX.Location = new System.Drawing.Point(290, 202);
             this.cbxRAX.Name = "cbxRAX";
             this.cbxRAX.Size = new System.Drawing.Size(288, 28);
             this.cbxRAX.TabIndex = 42;
+            this.cbxRAX.SelectedIndexChanged += new System.EventHandler(this.cbxRAX_SelectedIndexChanged);
             // 
             // cbxPCX
             // 
+            this.cbxPCX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxPCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxPCX.FormattingEnabled = true;
             this.cbxPCX.Location = new System.Drawing.Point(290, 176);
             this.cbxPCX.Name = "cbxPCX";
             this.cbxPCX.Size = new System.Drawing.Size(288, 28);
             this.cbxPCX.TabIndex = 43;
+            this.cbxPCX.SelectedIndexChanged += new System.EventHandler(this.cbxPCX_SelectedIndexChanged);
             // 
             // cbxCPX
             // 
+            this.cbxCPX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxCPX.FormattingEnabled = true;
             this.cbxCPX.Location = new System.Drawing.Point(290, 151);
             this.cbxCPX.Name = "cbxCPX";
             this.cbxCPX.Size = new System.Drawing.Size(288, 28);
             this.cbxCPX.TabIndex = 44;
+            this.cbxCPX.SelectedIndexChanged += new System.EventHandler(this.cbxCPX_SelectedIndexChanged);
             // 
             // frmLoja
             // 
@@ -380,7 +392,7 @@
             this.Controls.Add(this.cbxFdX);
             this.Controls.Add(this.label85);
             this.Controls.Add(this.label84);
-            this.Controls.Add(this.lblGDinheiro);
+            this.Controls.Add(this.lblVTotal);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label77);
             this.Controls.Add(this.label78);
@@ -390,15 +402,15 @@
             this.Controls.Add(this.label82);
             this.Controls.Add(this.label83);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.btnNNome);
+            this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.lblPCNome);
             this.Controls.Add(this.txtPCNome);
-            this.Controls.Add(this.lblForca);
+            this.Controls.Add(this.lblFTotal);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblDinheiro);
+            this.Controls.Add(this.lblDin);
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -411,15 +423,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label lblDinheiro;
+        private System.Windows.Forms.Label lblDin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.Label lblForca;
+        private System.Windows.Forms.Label lblFTotal;
         private System.Windows.Forms.TextBox txtPCNome;
         private System.Windows.Forms.Label lblPCNome;
-        private System.Windows.Forms.Button btnNNome;
+        private System.Windows.Forms.Button btnComprar;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label label79;
@@ -430,7 +442,7 @@
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.Label lblGDinheiro;
+        private System.Windows.Forms.Label lblVTotal;
         private System.Windows.Forms.Label label85;
         private System.Windows.Forms.ComboBox cbxFdX;
         private System.Windows.Forms.ComboBox cbxGax;

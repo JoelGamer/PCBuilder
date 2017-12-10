@@ -65,6 +65,9 @@ namespace projectPCBuilder0506
             if (Senha == CSenha)
             {
                 registrar();
+                registrarhab();
+
+                MessageBox.Show("Parabéns você acabou de ser registrado", "Registro", MessageBoxButtons.OK);
             }
             else
             {
@@ -79,8 +82,15 @@ namespace projectPCBuilder0506
             SqlCommand cmd = new SqlCommand(str, con);
             con.Open();
             cmd.ExecuteNonQuery();
+        }
 
-            MessageBox.Show("Parabéns você acabou de ser registrado", "Registro", MessageBoxButtons.OK);
+        void registrarhab()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
+            string str = "insert into HABILIDADES(usr_habilidade,pcs_habilidade,dpwb_habilidade,hack_habilidade,serv_habilidade,comp_habilidade,multi_habilidade,fact_habilidade) values('" + txtUsr.Text + "','" + txtSenha.Text + "','" + cbxSerie.Text + "','" + cbxSexo.Text + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 1 + "')";
+            SqlCommand cmd = new SqlCommand(str, con);
+            con.Open();
+            cmd.ExecuteNonQuery();
         }
 
         private void frmRegistrar_Load(object sender, EventArgs e)
