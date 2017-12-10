@@ -599,3 +599,8 @@ C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuil
 C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmTutorial2.resources
 C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.Properties.Resources.resources
 C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.x\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmVirtual.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.x\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmHackear.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.x\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmMusicasAdv.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.x\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmPerfilAdv.resources
+C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.x\projectPCBuilder0506\projectPCBuilder0506\obj\Debug\projectPCBuilder0506.frmConquistasAdv.resources

@@ -212,7 +212,7 @@ namespace projectPCBuilder0506
         }
         private void btnDpWb_Click(object sender, EventArgs e)
         {
-            frmDpWb frm = new frmDpWb(usr);
+            frmVirtual frm = new frmVirtual(usr);
             frm.Show();
         }
     }

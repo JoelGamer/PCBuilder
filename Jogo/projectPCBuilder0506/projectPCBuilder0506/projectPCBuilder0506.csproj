@@ -72,6 +72,12 @@
     <Compile Include="frmCompetidoresAdv.Designer.cs">
       <DependentUpon>frmCompetidoresAdv.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConquistasAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConquistasAdv.Designer.cs">
+      <DependentUpon>frmConquistasAdv.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDpWb.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="frmHab.Designer.cs">
       <DependentUpon>frmHab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHackear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHackear.Designer.cs">
+      <DependentUpon>frmHackear.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInternet.cs">
       <SubType>Form</SubType>
@@ -120,11 +132,23 @@
     <Compile Include="frmMusica.Designer.cs">
       <DependentUpon>frmMusica.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMusicasAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusicasAdv.Designer.cs">
+      <DependentUpon>frmMusicasAdv.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPCH.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPCH.Designer.cs">
       <DependentUpon>frmPCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerfilAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfilAdv.Designer.cs">
+      <DependentUpon>frmPerfilAdv.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRegistrar.cs">
       <SubType>Form</SubType>
@@ -210,8 +234,17 @@
     <Compile Include="frmTutorial2.Designer.cs">
       <DependentUpon>frmTutorial2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVirtual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVirtual.Designer.cs">
+      <DependentUpon>frmVirtual.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmConquistasAdv.resx">
+      <DependentUpon>frmConquistasAdv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDpWb.resx">
       <DependentUpon>frmDpWb.cs</DependentUpon>
     </EmbeddedResource>
@@ -220,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHab.resx">
       <DependentUpon>frmHab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHackear.resx">
+      <DependentUpon>frmHackear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInternet.resx">
       <DependentUpon>frmInternet.cs</DependentUpon>
@@ -232,6 +268,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMusica.resx">
       <DependentUpon>frmMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusicasAdv.resx">
+      <DependentUpon>frmMusicasAdv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfilAdv.resx">
+      <DependentUpon>frmPerfilAdv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrar.resx">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
@@ -268,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTutorial2.resx">
       <DependentUpon>frmTutorial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVirtual.resx">
+      <DependentUpon>frmVirtual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

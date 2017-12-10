@@ -119,6 +119,12 @@ exten_musica varchar(80) not null,
 Primary key(cod_musica),
 ); 
 
+CREATE TABLE MUSICAS_ADV(
+cod_musica int not null IDENTITY(1,1),
+nome_musica varchar(80) not null,
+exten_musica varchar(80) not null,
+Primary key(cod_musica),
+); 
 
 /*
 --Inserts do BD

@@ -37,9 +37,7 @@ namespace projectPCBuilder0506
         {
             if (extencao == null)
             {
-                MessageBox.Show("Escolha uma música para ser reproduzido", "Música", MessageBoxButtons.OK);
-
-                
+                MessageBox.Show("Escolha uma música para ser reproduzido", "Música", MessageBoxButtons.OK);               
             }
             else
             {

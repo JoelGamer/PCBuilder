@@ -37,7 +37,6 @@ namespace projectPCBuilder0506
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            frmMainmenu frm = new frmMainmenu(usr);
             Close();
         }
 

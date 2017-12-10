@@ -404,11 +404,11 @@
             this.lblDpWb.BackColor = System.Drawing.Color.Transparent;
             this.lblDpWb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDpWb.ForeColor = System.Drawing.Color.Transparent;
-            this.lblDpWb.Location = new System.Drawing.Point(105, 354);
+            this.lblDpWb.Location = new System.Drawing.Point(107, 354);
             this.lblDpWb.Name = "lblDpWb";
-            this.lblDpWb.Size = new System.Drawing.Size(65, 15);
+            this.lblDpWb.Size = new System.Drawing.Size(60, 15);
             this.lblDpWb.TabIndex = 99;
-            this.lblDpWb.Text = "Deep Web";
+            this.lblDpWb.Text = "PC Virtual";
             this.lblDpWb.Visible = false;
             // 
             // btnDpWb
