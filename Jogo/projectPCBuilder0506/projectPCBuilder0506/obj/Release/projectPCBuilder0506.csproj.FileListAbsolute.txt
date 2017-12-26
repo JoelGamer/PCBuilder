@@ -1,4 +1,0 @@
-C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\bin\Release\projectPCBuilder0506.exe.config
-C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Release\Interop.WMPLib.dll
-C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Release\AxInterop.WMPLib.dll
-C:\Users\Joel\Desktop\PCBuilder\Game\---DON'T USE---\PCBuilder 1.X\projectPCBuilder0506\projectPCBuilder0506\obj\Release\projectPCBuilder0506.csproj.ResolveComReference.cache

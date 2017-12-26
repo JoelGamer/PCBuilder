@@ -1,0 +1,14 @@
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\bin\Debug\Time server.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\bin\Debug\Time server.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\bin\Debug\Time server.pdb
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\obj\Debug\Time server.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\obj\Debug\Time server.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\obj\Debug\Time server.exe
+C:\Users\Joel\Desktop\PCBuilder\Game\---Test Projects---\Time server\Time server\obj\Debug\Time server.pdb
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Time server.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Time server.exe
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Time server.pdb
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Time server.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Time server.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Time server.exe
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Time server.pdb

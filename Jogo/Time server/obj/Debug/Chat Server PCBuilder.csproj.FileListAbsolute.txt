@@ -1,0 +1,6 @@
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Chat Server PCBuilder.exe.config
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Chat Server PCBuilder.exe
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\bin\Debug\Chat Server PCBuilder.pdb
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Chat Server PCBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Chat Server PCBuilder.exe
+C:\Users\Joel\Desktop\PCBuilder\Chat Server\Chat Server PCBuilder 1.0\Time server\obj\Debug\Chat Server PCBuilder.pdb
