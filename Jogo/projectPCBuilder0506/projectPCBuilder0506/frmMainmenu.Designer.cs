@@ -58,6 +58,8 @@
             this.lblDpWb = new System.Windows.Forms.Label();
             this.btnDpWb = new System.Windows.Forms.Button();
             this.lblDp = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnHab = new System.Windows.Forms.Button();
             this.gpbPDF.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF2)).BeginInit();
@@ -437,6 +439,30 @@
             this.lblDp.Text = "0";
             this.lblDp.Visible = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(160, 135);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(104, 15);
+            this.label6.TabIndex = 102;
+            this.label6.Text = "Suas Habilidades";
+            // 
+            // btnHab
+            // 
+            this.btnHab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHab.FlatAppearance.BorderSize = 0;
+            this.btnHab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHab.Location = new System.Drawing.Point(180, 80);
+            this.btnHab.Name = "btnHab";
+            this.btnHab.Size = new System.Drawing.Size(55, 55);
+            this.btnHab.TabIndex = 101;
+            this.btnHab.UseVisualStyleBackColor = true;
+            this.btnHab.Click += new System.EventHandler(this.btnHab_Click);
+            // 
             // frmMainmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -444,6 +470,8 @@
             this.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.bgcolor3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 576);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnHab);
             this.Controls.Add(this.lblDp);
             this.Controls.Add(this.lblDpWb);
             this.Controls.Add(this.btnDpWb);
@@ -470,7 +498,6 @@
             this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMainmenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -516,5 +543,7 @@
         private System.Windows.Forms.Label lblDpWb;
         private System.Windows.Forms.Button btnDpWb;
         private System.Windows.Forms.Label lblDp;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnHab;
     }
 }

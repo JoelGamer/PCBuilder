@@ -31,6 +31,10 @@
             this.lblDpWb = new System.Windows.Forms.Label();
             this.btnDpWb = new System.Windows.Forms.Button();
             this.gpbPDF = new System.Windows.Forms.GroupBox();
+            this.pbxPDF4 = new System.Windows.Forms.PictureBox();
+            this.pbxPDF2 = new System.Windows.Forms.PictureBox();
+            this.pbxPDF1 = new System.Windows.Forms.PictureBox();
+            this.pbxPDF3 = new System.Windows.Forms.PictureBox();
             this.btnCriadores = new System.Windows.Forms.Button();
             this.btnPDF = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -41,13 +45,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnMusicas = new System.Windows.Forms.Button();
             this.btnConquistas = new System.Windows.Forms.Button();
-            this.pbxPDF4 = new System.Windows.Forms.PictureBox();
-            this.pbxPDF2 = new System.Windows.Forms.PictureBox();
-            this.pbxPDF1 = new System.Windows.Forms.PictureBox();
-            this.pbxPDF3 = new System.Windows.Forms.PictureBox();
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnLix = new System.Windows.Forms.Button();
             this.btnPerfil = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnHab = new System.Windows.Forms.Button();
             this.gpbPDF.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPDF2)).BeginInit();
@@ -95,6 +97,42 @@
             this.gpbPDF.TabStop = false;
             this.gpbPDF.Text = "Plano de Fundo";
             this.gpbPDF.Visible = false;
+            // 
+            // pbxPDF4
+            // 
+            this.pbxPDF4.Location = new System.Drawing.Point(131, 100);
+            this.pbxPDF4.Name = "pbxPDF4";
+            this.pbxPDF4.Size = new System.Drawing.Size(125, 75);
+            this.pbxPDF4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxPDF4.TabIndex = 95;
+            this.pbxPDF4.TabStop = false;
+            // 
+            // pbxPDF2
+            // 
+            this.pbxPDF2.Location = new System.Drawing.Point(0, 100);
+            this.pbxPDF2.Name = "pbxPDF2";
+            this.pbxPDF2.Size = new System.Drawing.Size(125, 75);
+            this.pbxPDF2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxPDF2.TabIndex = 1;
+            this.pbxPDF2.TabStop = false;
+            // 
+            // pbxPDF1
+            // 
+            this.pbxPDF1.Location = new System.Drawing.Point(0, 19);
+            this.pbxPDF1.Name = "pbxPDF1";
+            this.pbxPDF1.Size = new System.Drawing.Size(125, 75);
+            this.pbxPDF1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxPDF1.TabIndex = 0;
+            this.pbxPDF1.TabStop = false;
+            // 
+            // pbxPDF3
+            // 
+            this.pbxPDF3.Location = new System.Drawing.Point(131, 19);
+            this.pbxPDF3.Name = "pbxPDF3";
+            this.pbxPDF3.Size = new System.Drawing.Size(125, 75);
+            this.pbxPDF3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxPDF3.TabIndex = 94;
+            this.pbxPDF3.TabStop = false;
             // 
             // btnCriadores
             // 
@@ -227,42 +265,6 @@
             this.btnConquistas.UseVisualStyleBackColor = false;
             this.btnConquistas.Click += new System.EventHandler(this.btnConquistas_Click);
             // 
-            // pbxPDF4
-            // 
-            this.pbxPDF4.Location = new System.Drawing.Point(131, 100);
-            this.pbxPDF4.Name = "pbxPDF4";
-            this.pbxPDF4.Size = new System.Drawing.Size(125, 75);
-            this.pbxPDF4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxPDF4.TabIndex = 95;
-            this.pbxPDF4.TabStop = false;
-            // 
-            // pbxPDF2
-            // 
-            this.pbxPDF2.Location = new System.Drawing.Point(0, 100);
-            this.pbxPDF2.Name = "pbxPDF2";
-            this.pbxPDF2.Size = new System.Drawing.Size(125, 75);
-            this.pbxPDF2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxPDF2.TabIndex = 1;
-            this.pbxPDF2.TabStop = false;
-            // 
-            // pbxPDF1
-            // 
-            this.pbxPDF1.Location = new System.Drawing.Point(0, 19);
-            this.pbxPDF1.Name = "pbxPDF1";
-            this.pbxPDF1.Size = new System.Drawing.Size(125, 75);
-            this.pbxPDF1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxPDF1.TabIndex = 0;
-            this.pbxPDF1.TabStop = false;
-            // 
-            // pbxPDF3
-            // 
-            this.pbxPDF3.Location = new System.Drawing.Point(131, 19);
-            this.pbxPDF3.Name = "pbxPDF3";
-            this.pbxPDF3.Size = new System.Drawing.Size(125, 75);
-            this.pbxPDF3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxPDF3.TabIndex = 94;
-            this.pbxPDF3.TabStop = false;
-            // 
             // btnMenu
             // 
             this.btnMenu.BackgroundImage = global::projectPCBuilder0506.Properties.Resources.menu;
@@ -303,12 +305,39 @@
             this.btnPerfil.UseVisualStyleBackColor = true;
             this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(82, 173);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 15);
+            this.label4.TabIndex = 123;
+            this.label4.Text = "Habilidades";
+            // 
+            // btnHab
+            // 
+            this.btnHab.BackColor = System.Drawing.Color.White;
+            this.btnHab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHab.FlatAppearance.BorderSize = 0;
+            this.btnHab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHab.Location = new System.Drawing.Point(90, 118);
+            this.btnHab.Name = "btnHab";
+            this.btnHab.Size = new System.Drawing.Size(55, 55);
+            this.btnHab.TabIndex = 122;
+            this.btnHab.UseVisualStyleBackColor = false;
+            this.btnHab.Click += new System.EventHandler(this.btnHab_Click);
+            // 
             // frmVirtual
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
             this.ClientSize = new System.Drawing.Size(861, 576);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnHab);
             this.Controls.Add(this.lblDpWb);
             this.Controls.Add(this.btnDpWb);
             this.Controls.Add(this.gpbPDF);
@@ -325,7 +354,6 @@
             this.Controls.Add(this.btnConquistas);
             this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmVirtual";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PC Virtual";
@@ -361,5 +389,7 @@
         private System.Windows.Forms.Button btnConquistas;
         private System.Windows.Forms.Button btnPerfil;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnHab;
     }
 }

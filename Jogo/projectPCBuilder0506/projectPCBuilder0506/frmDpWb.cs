@@ -25,5 +25,35 @@ namespace projectPCBuilder0506
         {
 
         }
+
+        private void btnMercNegro_Click(object sender, EventArgs e)
+        {
+            frmLojaAdv frm = new frmLojaAdv(usr);
+            frm.Show();
+        }
+
+        private void btnServComp_Click(object sender, EventArgs e)
+        {
+            frmLojaServer frm = new frmLojaServer(usr);
+            frm.Show();
+        }
+
+        private void btnChat_Click(object sender, EventArgs e)
+        {
+            frmChatGeral frm = new frmChatGeral(usr);
+            frm.Show();
+        }
+
+        private void btnCampanha_Click(object sender, EventArgs e)
+        {
+            frmCompetidoresAdv frm = new frmCompetidoresAdv(usr);
+            frm.Show();
+        }
+
+        private void btnFaccoes_Click(object sender, EventArgs e)
+        {
+            frmFaccoes frm = new frmFaccoes(usr);
+            frm.Show();
+        }
     }
 }

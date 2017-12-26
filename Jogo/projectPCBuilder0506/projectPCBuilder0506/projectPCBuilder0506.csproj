@@ -11,6 +11,7 @@
     <AssemblyName>projectPCBuilder0506</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -56,6 +56,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmChatGeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChatGeral.Designer.cs">
+      <DependentUpon>frmChatGeral.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCompetidoresAdv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +109,12 @@
     <Compile Include="frmHab.Designer.cs">
       <DependentUpon>frmHab.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHabilidadesAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHabilidadesAdv.Designer.cs">
+      <DependentUpon>frmHabilidadesAdv.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHackear.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +132,18 @@
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLojaAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLojaAdv.Designer.cs">
+      <DependentUpon>frmLojaAdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLojaServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLojaServer.Designer.cs">
+      <DependentUpon>frmLojaServer.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMulti.cs">
       <SubType>Form</SubType>
@@ -242,6 +267,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChatGeral.resx">
+      <DependentUpon>frmChatGeral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompetidoresAdv.resx">
+      <DependentUpon>frmCompetidoresAdv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConquistasAdv.resx">
       <DependentUpon>frmConquistasAdv.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,8 +282,14 @@
     <EmbeddedResource Include="frmAdmin.resx">
       <DependentUpon>frmAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmFaccoes.resx">
+      <DependentUpon>frmFaccoes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHab.resx">
       <DependentUpon>frmHab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHabilidadesAdv.resx">
+      <DependentUpon>frmHabilidadesAdv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHackear.resx">
       <DependentUpon>frmHackear.cs</DependentUpon>
@@ -265,6 +302,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLojaAdv.resx">
+      <DependentUpon>frmLojaAdv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLojaServer.resx">
+      <DependentUpon>frmLojaServer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMusica.resx">
       <DependentUpon>frmMusica.cs</DependentUpon>

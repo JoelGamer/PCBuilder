@@ -243,6 +243,13 @@ insert into FEM(nome_fem) values('Ana Carolina');
 insert into FEM(nome_fem) values('Ruth');
 insert into FEM(nome_fem) values('Amanda');
 insert into FEM(nome_fem) values('Julia');
+insert into FEM(nome_fem) values('Giulia');
+insert into FEM(nome_fem) values('Natalia');
+insert into FEM(nome_fem) values('Aline');
+insert into FEM(nome_fem) values('Juliana');
+insert into FEM(nome_fem) values('Jessica');
+insert into FEM(nome_fem) values('Bruna');
+insert into FEM(nome_fem) values('Tirza');
 /*Select*/
 select * from FEM;
 /*Select*/

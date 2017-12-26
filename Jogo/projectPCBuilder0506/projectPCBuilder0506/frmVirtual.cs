@@ -132,5 +132,11 @@ namespace projectPCBuilder0506
             frmConquistasAdv frm = new frmConquistasAdv(usr);
             frm.Show();
         }
+
+        private void btnHab_Click(object sender, EventArgs e)
+        {
+            frmHabilidadesAdv frm = new frmHabilidadesAdv(usr);
+            frm.Show();
+        }
     }
 }

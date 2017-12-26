@@ -14,13 +14,16 @@ namespace projectPCBuilder0506
     public partial class frmMainmenu : Form
     {
         string usr;
+        string server;
         int clk;
 
-        public frmMainmenu(string user)
+        public frmMainmenu(string user,string Server)
         {
             InitializeComponent();
-            string User = user.ToString();
-            usr = User;
+
+            Server = server;
+            usr = user;
+
             Admin();
             DpWb();
         }
@@ -183,7 +186,7 @@ namespace projectPCBuilder0506
 
         void DpWb()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
+            SqlConnection con = new SqlConnection(@"Data Source=" + server + ";Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
             con.Open();
             string str = "select usr_habilidade,dpwb_habilidade from HABILIDADES where usr_habilidade='" + usr + "'";
             SqlCommand cmd = new SqlCommand(str, con);
@@ -213,6 +216,12 @@ namespace projectPCBuilder0506
         private void btnDpWb_Click(object sender, EventArgs e)
         {
             frmVirtual frm = new frmVirtual(usr);
+            frm.Show();
+        }
+
+        private void btnHab_Click(object sender, EventArgs e)
+        {
+            frmHabilidadesAdv frm = new frmHabilidadesAdv(usr);
             frm.Show();
         }
     }

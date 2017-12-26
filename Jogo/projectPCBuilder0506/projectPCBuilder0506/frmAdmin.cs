@@ -126,9 +126,7 @@ namespace projectPCBuilder0506
                 }
             }
             else if (dialogResult == DialogResult.No)
-            {
-
-            }
+            {  }
         }//Fim do void
 
         private void frmAdmin_Load(object sender, EventArgs e)

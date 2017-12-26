@@ -7,14 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace projectPCBuilder0506
 {
     public partial class frmCompetidoresAdv : Form
     {
-        public frmCompetidoresAdv()
+        string usr;
+
+        public frmCompetidoresAdv(string user)
         {
             InitializeComponent();
+            string User = user.ToString();
+            usr = User;
+        }
+
+        private void frmCompetidoresAdv_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

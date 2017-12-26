@@ -49,7 +49,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(524, 255);
+            this.label2.Location = new System.Drawing.Point(533, 126);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 15);
             this.label2.TabIndex = 92;
@@ -61,7 +61,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(517, 126);
+            this.label7.Location = new System.Drawing.Point(526, 255);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 15);
             this.label7.TabIndex = 89;
@@ -73,11 +73,12 @@
             this.btnCampanha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCampanha.FlatAppearance.BorderSize = 0;
             this.btnCampanha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCampanha.Location = new System.Drawing.Point(524, 71);
+            this.btnCampanha.Location = new System.Drawing.Point(533, 200);
             this.btnCampanha.Name = "btnCampanha";
             this.btnCampanha.Size = new System.Drawing.Size(55, 55);
             this.btnCampanha.TabIndex = 86;
             this.btnCampanha.UseVisualStyleBackColor = false;
+            this.btnCampanha.Click += new System.EventHandler(this.btnCampanha_Click);
             // 
             // btnFaccoes
             // 
@@ -85,11 +86,12 @@
             this.btnFaccoes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFaccoes.FlatAppearance.BorderSize = 0;
             this.btnFaccoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFaccoes.Location = new System.Drawing.Point(524, 200);
+            this.btnFaccoes.Location = new System.Drawing.Point(533, 71);
             this.btnFaccoes.Name = "btnFaccoes";
             this.btnFaccoes.Size = new System.Drawing.Size(55, 55);
             this.btnFaccoes.TabIndex = 85;
             this.btnFaccoes.UseVisualStyleBackColor = false;
+            this.btnFaccoes.Click += new System.EventHandler(this.btnFaccoes_Click);
             // 
             // label1
             // 
@@ -109,7 +111,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(260, 126);
+            this.label3.Location = new System.Drawing.Point(263, 126);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 95;
@@ -121,7 +123,7 @@
             this.btnMulti.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMulti.FlatAppearance.BorderSize = 0;
             this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMulti.Location = new System.Drawing.Point(266, 71);
+            this.btnMulti.Location = new System.Drawing.Point(269, 71);
             this.btnMulti.Name = "btnMulti";
             this.btnMulti.Size = new System.Drawing.Size(55, 55);
             this.btnMulti.TabIndex = 94;
@@ -150,6 +152,7 @@
             this.btnChat.Size = new System.Drawing.Size(55, 55);
             this.btnChat.TabIndex = 130;
             this.btnChat.UseVisualStyleBackColor = false;
+            this.btnChat.Click += new System.EventHandler(this.btnChat_Click);
             // 
             // label4
             // 
@@ -157,7 +160,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(261, 255);
+            this.label4.Location = new System.Drawing.Point(264, 255);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 15);
             this.label4.TabIndex = 129;
@@ -169,11 +172,12 @@
             this.btnServComp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnServComp.FlatAppearance.BorderSize = 0;
             this.btnServComp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnServComp.Location = new System.Drawing.Point(266, 200);
+            this.btnServComp.Location = new System.Drawing.Point(269, 200);
             this.btnServComp.Name = "btnServComp";
             this.btnServComp.Size = new System.Drawing.Size(55, 55);
             this.btnServComp.TabIndex = 128;
             this.btnServComp.UseVisualStyleBackColor = false;
+            this.btnServComp.Click += new System.EventHandler(this.btnServComp_Click);
             // 
             // label6
             // 
@@ -198,13 +202,14 @@
             this.btnMercNegro.Size = new System.Drawing.Size(55, 55);
             this.btnMercNegro.TabIndex = 126;
             this.btnMercNegro.UseVisualStyleBackColor = false;
+            this.btnMercNegro.Click += new System.EventHandler(this.btnMercNegro_Click);
             // 
             // frmDpWb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(600, 287);
+            this.ClientSize = new System.Drawing.Size(608, 287);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnChat);
             this.Controls.Add(this.label4);

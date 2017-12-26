@@ -96,7 +96,6 @@ namespace projectPCBuilder0506
 
         private void compinsrt()
         {
-            int Forca = Convert.ToInt32(lblFTotal.Text);
             string PCNome = Convert.ToString(txtPCNome.Text);
 
             SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=DB-PCBuilder-Usrs;Integrated Security=True;");
